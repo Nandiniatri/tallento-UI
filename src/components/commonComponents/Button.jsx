@@ -5,7 +5,7 @@ const Button = ({
     onClick,
     type,
     disabled = false,
-    className = "",
+    className,
 }) => {
     return (
         <button
@@ -14,7 +14,7 @@ const Button = ({
             disabled={disabled}
             className={className}
         >
-            {children}
+            {children} 
         </button>
     );
 };

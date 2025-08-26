@@ -1,0 +1,10 @@
+:root {
+  --background-page2: linear-gradient(135deg, #1a0033, #000428, #1f005c);
+}
+
+.heroBanner-main-comp {
+  border: solid;
+  background: var(--background-page2); 
+  color: white; 
+  height: 100vh;
+}
