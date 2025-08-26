@@ -1,13 +1,11 @@
 import './App.css'
-import TagButton from './components/commonComponents/TagButtons'
-import Pages from './pages/Pages'
+import HeroBanner from './components/HeroBanner'
 
 function App() {
 
   return (
     <>
-      {/* <TagButton /> */}
-      <Pages />
+      <HeroBanner />
     </>
   )
 }

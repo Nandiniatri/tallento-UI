@@ -1,0 +1,9 @@
+.tag-Btn-class {
+  padding: 8px 16px;
+  background: transparent;  
+  color: white;
+  border: 1px solid #555;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
